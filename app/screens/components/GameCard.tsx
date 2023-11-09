@@ -6,7 +6,7 @@ import Animated, {
   useAnimatedStyle,
   withTiming,
 } from 'react-native-reanimated';
-import styles from './styles';
+import styles from '../styles';
 
 type CardProps = {
   image: ImageSourcePropType;

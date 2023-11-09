@@ -2,7 +2,7 @@ import React, {useState, useRef, useCallback, useEffect} from 'react';
 import {Text, View} from 'react-native';
 import {tileImagesSets} from '../utils/TitleImages';
 import Button from '../components/Button';
-import GameCard from './GameCard';
+import GameCard from './components/GameCard';
 import styles from './styles';
 
 const TIMEOUT_DURATION = 1000; // Timeout duration in milliseconds
