@@ -9,6 +9,12 @@ The code adheres to clean practices, leveraging smaller, reusable components. De
 
 Check out the app views below:
 
+<img src="https://github.com/alihussnain-git/YaraMemoryGame/assets/58841397/fc47131e-5d82-4a07-bc7b-cba9d27c17a4" width="180">
+<img src="https://github.com/alihussnain-git/YaraMemoryGame/assets/58841397/9407dd62-b558-4926-9040-c0b4f9e819e7" width="180">
+<img src="https://github.com/alihussnain-git/YaraMemoryGame/assets/58841397/d4d42b0f-f144-4f67-93fa-133423976a60" width="180">
+<img src="https://github.com/alihussnain-git/YaraMemoryGame/assets/58841397/2d6b77bb-5ea0-4250-8fdb-7aa557880318" width="180">
+<img src="https://github.com/alihussnain-git/YaraMemoryGame/assets/58841397/f32538a9-8de7-44fc-9a53-fc5cee7ca525" width="180">
+
 ## General Notice
 
 Please time-box this task to approximately max. two hours, we do not expect you to complete all the tasks in any way. It would be nice if the core features/concept are completed, but any further mentioned options are really purely optional and can be added/extended as you like. What we particularly value is that the submitted code is well structured, and has a mostly clean codebase.
