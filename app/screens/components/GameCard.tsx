@@ -20,7 +20,7 @@ type CardProps = {
 const FLIP_DURATION = 500;
 const FLIP_ANGLE = 180;
 
-const DEFAULT_IMAGE = require('../../images/tileImages/9.png');
+const DEFAULT_IMAGE = require('../../../images/tileImages/9.png');
 
 const GameCard: React.FC<CardProps> = ({
   isDisabled,
