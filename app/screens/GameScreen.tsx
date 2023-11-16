@@ -43,13 +43,14 @@ const GameScreen: React.FC = () => {
   const rows = cardIds.length / columns;
   const isGameComplete =
     cardIds.length !== 0 && clearedCards.length === cardIds.length;
+  const renderGame = selectedDifficulty !== 0 && !isGameComplete;
 
   return (
     <View style={styles.board}>
       {!selectedDifficulty && (
         <DifficultySelection onDifficultySelect={generateCardIds} />
       )}
-      {selectedDifficulty !== 0 && !isGameComplete && (
+      {renderGame && (
         <>
           <Button onPress={handClickNewGame} text="New Game" />
           {[...Array(rows)].map((_, index) =>
