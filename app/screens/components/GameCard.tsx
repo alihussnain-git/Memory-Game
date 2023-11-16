@@ -1,11 +1,8 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import {TouchableOpacity, Image, ImageSourcePropType} from 'react-native';
-import Animated, {
-  Easing,
-  useSharedValue,
-  useAnimatedStyle,
-  withTiming,
-} from 'react-native-reanimated';
+import Animated from 'react-native-reanimated';
+import {defaultImage} from '../../assets/images';
+import useCardFlipAnimation from '../../utils/hooks/useCardFlipAnimation';
 import styles from '../styles';
 
 type CardProps = {
@@ -17,11 +14,6 @@ type CardProps = {
   isDisabled: boolean;
 };
 
-const FLIP_DURATION = 500;
-const FLIP_ANGLE = 180;
-
-const DEFAULT_IMAGE = require('../../../images/tileImages/9.png');
-
 const GameCard: React.FC<CardProps> = ({
   isDisabled,
   onClick,
@@ -29,30 +21,13 @@ const GameCard: React.FC<CardProps> = ({
   isFlipped,
   image,
 }) => {
-  const rotation = useSharedValue(isFlipped ? FLIP_ANGLE : 0);
-
-  useEffect(() => {
-    rotation.value = withTiming(isFlipped ? FLIP_ANGLE : 0, {
-      duration: FLIP_DURATION,
-      easing: Easing.linear,
-    });
-  }, [isFlipped, rotation]);
+  const animatedStyle = useCardFlipAnimation(isFlipped); // Use the new hook
 
   const handleClick = () => {
     if (!isFlipped && !isDisabled) {
-      rotation.value = withTiming(FLIP_ANGLE, {
-        duration: FLIP_DURATION,
-        easing: Easing.linear,
-      });
       onClick(id);
     }
   };
-
-  const animatedStyle = useAnimatedStyle(() => {
-    return {
-      transform: [{rotateY: `${rotation.value}deg`}],
-    };
-  });
 
   return (
     <TouchableOpacity
@@ -61,7 +36,7 @@ const GameCard: React.FC<CardProps> = ({
       onPress={handleClick}>
       <Animated.View style={[styles.card, animatedStyle]}>
         <Image
-          source={isFlipped ? image : DEFAULT_IMAGE}
+          source={isFlipped ? image : defaultImage}
           style={[styles.cardImage, isFlipped && {transform: [{scaleX: -1}]}]}
         />
       </Animated.View>
