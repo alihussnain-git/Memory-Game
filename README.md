@@ -66,27 +66,3 @@ Also:
 
 - Add a card flip animation.
 
-## Memory Game Mockups
-
-You can find those design mockups in the (`./images/mockups`) folder within this project.
-
-|                                    Select Difficulty                                     |                                       Core Game                                        |
-| :--------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: |
-|             ![Yara-NTester](images/mockups/01_select-difficulty-screen.png)              |                    ![Yara-NTester](images/mockups/02_core-game.png)                    |
-| ![Yara-NTester](images/mockups/03-medium-difficulty.png 'Additional feature (3x4 Grid)') | ![Yara-NTester](images/mockups/03-hard-difficulty.png 'Additional feature (4x4 Grid)') |
-
-## Card Tile Images
-
-You can find those tile images in the (`./images/tileImages`) folder within this project.
-
-|                                                        |                                                     |                                                               |
-| :----------------------------------------------------: | :-------------------------------------------------: | :-----------------------------------------------------------: |
-| ![Yara-NTester](images/tileImages/01_Yara-NTester.png) | ![Yara-YaraTera](images/tileImages/02_YaraTera.png) |      ![Yara-YaraBela](images/tileImages/03_YaraBela.png)      |
-|  ![Yara-YaraVita](images/tileImages/04_YaraVita.png)   | ![Yara-YaraVera](images/tileImages/05_YaraVera.png) |      ![Yara-YaraRega](images/tileImages/06_YaraRega.png)      |
-|  ![Yara-YaraMila](images/tileImages/07_YaraMila.png)   | ![Yara-YaraLiva](images/tileImages/08_YaraLiva.png) | ![Yara-YaraPrideLogo](images/tileImages/09_YaraPrideLogo.png) |
-
-## Finished?
-
-Please work in a **private Github repo**, or at least push your final code there. When you are done, please give read access to [@valecarlos](https://github.com/valecarlos), [@rintel](https://github.com/rintel) and [@michi-trecker](https://github.com/michi-trecker)
-
-We're very much looking forward to hearing from you!
