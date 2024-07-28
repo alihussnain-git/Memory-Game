@@ -1,4 +1,4 @@
-# Yara Coding Excerice - Memory Game
+# Coding Excerice - Memory Game
 
 ## Solution Overview
 The solution is consolidated into a single screen, prioritizing functionality over production-ready code to minimize development time. Notable features, such as styling, React Navigation and comprehensive testing, were excluded for brevity.
@@ -28,7 +28,7 @@ We hope it will be fun and wish you good luck! 🙂
 Build a small memory card game (if the game name doesn’t ring a bell, here is an article explaining the concept: [Memory (card game)](<https://en.wikipedia.org/wiki/Concentration*(card_game)>))
 where you have to tap on a card to see what image is underneath it and try to find the matching image among the other cards. Once all card pairs have been found, the game is over and the user won.
 
-_Note: We have included a folder (`./images/tileImages`) with 8 pictures of our Yara fertilizers among our company logo for you to use for the game tiles. You can view the images also in the [Card Tile Images](#card-tile-images) section._
+_Note: We have included a folder (`./images/tileImages`) with 8 pictures of a company logo for you to use for the game tiles. You can view the images also in the [Card Tile Images](#card-tile-images) section._
 
 ## Core Concept
 
