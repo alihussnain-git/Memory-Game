@@ -1,4 +1,4 @@
-# Coding Excerice - Memory Game
+# Coding Exercise - Memory Game
 
 ## Solution Overview
 The solution is consolidated into a single screen, prioritizing functionality over production-ready code to minimize development time. Notable features, such as styling, React Navigation and comprehensive testing, were excluded for brevity.
@@ -9,11 +9,11 @@ The code adheres to clean practices, leveraging smaller, reusable components. De
 
 Check out the app views below:
 
-<img src="https://github.com/alihussnain-git/YaraMemoryGame/assets/58841397/fc47131e-5d82-4a07-bc7b-cba9d27c17a4" width="180">
-<img src="https://github.com/alihussnain-git/YaraMemoryGame/assets/58841397/9407dd62-b558-4926-9040-c0b4f9e819e7" width="180">
-<img src="https://github.com/alihussnain-git/YaraMemoryGame/assets/58841397/d4d42b0f-f144-4f67-93fa-133423976a60" width="180">
-<img src="https://github.com/alihussnain-git/YaraMemoryGame/assets/58841397/2d6b77bb-5ea0-4250-8fdb-7aa557880318" width="180">
-<img src="https://github.com/alihussnain-git/YaraMemoryGame/assets/58841397/f32538a9-8de7-44fc-9a53-fc5cee7ca525" width="180">
+
+
+https://github.com/user-attachments/assets/1824382c-2a8a-4f6e-8432-ce97ffbba5c6
+
+
 
 ## General Notice
 
