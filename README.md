@@ -1,27 +1,4 @@
-# Coding Exercise - Memory Game
 
-## Solution Overview
-The solution is consolidated into a single screen, prioritizing functionality over production-ready code to minimize development time. Notable features, such as styling, React Navigation and comprehensive testing, were excluded for brevity.
-
-For a more in-depth exploration of my skills, I've curated repositories on GitHub that showcase various projects. Your feedback on these repositories is highly encouraged: [GitHub - Ali Hussnain](https://github.com/alihussnain-git).
-
-The code adheres to clean practices, leveraging smaller, reusable components. Despite allocating 4-6 hours to the project, the enjoyable nature of game development and animations made the time fly by! 😄
-
-Check out the app views below:
-
-
-
-https://github.com/user-attachments/assets/1824382c-2a8a-4f6e-8432-ce97ffbba5c6
-
-
-
-## General Notice
-
-Please time-box this task to approximately max. two hours, we do not expect you to complete all the tasks in any way. It would be nice if the core features/concept are completed, but any further mentioned options are really purely optional and can be added/extended as you like. What we particularly value is that the submitted code is well structured, and has a mostly clean codebase.
-
-_Note: If you can, please avoid adding/using other libraries._
-
-We hope it will be fun and wish you good luck! 🙂
 
 ## Task Description
 
