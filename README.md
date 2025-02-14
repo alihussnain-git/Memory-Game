@@ -5,11 +5,8 @@
 Build a small memory card game (if the game name doesn’t ring a bell, here is an article explaining the concept: [Memory (card game)](<https://en.wikipedia.org/wiki/Concentration*(card_game)>))
 where you have to tap on a card to see what image is underneath it and try to find the matching image among the other cards. Once all card pairs have been found, the game is over and the user won.
 
-_Note: We have included a folder (`./images/tileImages`) with 8 pictures of a company logo for you to use for the game tiles. You can view the images also in the [Card Tile Images](#card-tile-images) section._
 
 ## Core Concept
-
-_Note: We have also included a design mockup folder (`./images/mockups`) of the application that you’re invited to use. It should complement the bullet point list underneath. You can view the images also in the [Memory Game Mockups](#memory-game-mockups) section._
 
 - Once the application has started the user can see a grid with 2 x 4 cards/tiles (4 card pairs).
 
